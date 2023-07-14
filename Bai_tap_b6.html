@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<!--1. Hiện ‘Hello’ lên hộp thoại ngay khi chạy file
+2. Hiện ‘Hello’ lên màn hình ngay khi chạy file
+3. Hiện ‘Hello’ lên hộp thoại khi ấn nút
+4. Tạo ra biến a = 10 & b = 5, hiện a+b lên hộp thoại
+5. Tạo ra biến a = 10 & b = 5, hiện a+b lên màn hình
+6. Tạo giao diện có 1 input, 1 nút. Bấm nút thì hiện ra phần vừa nhập trong input ra hộp thoại
+7. Tạo giao diện có 1 input, 1 nút. Bấm nút thì hiện ra tích số vừa nhập trong input với 10 ra màn hình
+8. Tạo giao diện có 2 input, 1 nút. Bấm nút thì hiện ra tích 2 số vừa nhập trong input ra hộp thoại
+Bài làm -->
+<!--b1.-->
+<!--<script>-->
+<!--  alert ( "hello")-->
+<!--</script>-->
+<!--Bài2-->
+<!--<script>-->
+<!--  document.write( "hello")-->
+<!--</script>-->
+<!--Bài 3:-->
+<!--<button onclick="withme()">CLICK</button>-->
+<!--<Script>-->
+<!--    function withme() {-->
+<!--        alert('Hello')-->
+<!--  }-->
+<!--</Script>-->
+<!--Bài 4.-->
+<!--<script>-->
+<!--let a= 10-->
+<!--let b= 25-->
+<!--let c = a +b-->
+<!--alert (c)-->
+<!--</script>-->
+<!--Bài 5.-->
+<!--<script>-->
+<!--let a= 1-->
+<!--let b= 2-->
+<!--let c = a +b-->
+<!--  document.write(c)-->
+<!--</script>-->
+<!--bài 6:-->
+<!--<input type="text" id="input" onchange="Dulieunhap">-->
+<!--<button onclick="Me()">Click</button>-->
+<!--<script>-->
+<!--    function Me() {-->
+<!--        let Bien=document.getElementById("input").value-->
+<!--        alert (Bien)-->
+<!--    }-->
+<!--</script>-->
+<!--bài 7-->
+<!--<input type="text" id="a" onchange=" This">-->
+<!--<button onclick="Me()">Click</button>-->
+<!--<script>-->
+<!--    let a = 1-->
+<!--    let b = 10-->
+<!--    let c = a*b-->
+<!--    function Me() {-->
+<!--        document.write(c)-->
+<!--    }-->
+<!--</script>-->
+Bài 8:
+<input type="text" id="a">
+<input type="text" id="b">
+<button onclick="me()">KQ </button>
+<script>
+    function me() {
+    let a = +document.getElementById('a').value
+    let b = +document.getElementById('b').value
+    let c = a * b
+    alert(c)
+    }
+</script>
+</body>
+
+</html>
